@@ -1,0 +1,7 @@
+{
+  "name": "snacks_ecommerce",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
