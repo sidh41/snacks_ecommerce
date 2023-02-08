@@ -1,0 +1,121 @@
+.cart {
+    width: 100%;
+    height: 110.92px;
+    display: flex;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3Csvg width='340' height='101' viewBox='0 0 340 101' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.382751 42.6177C0.382751 19.3048 19.2816 0.406006 42.5945 0.406006L117.235 0.406006C120.971 0.406006 124.663 1.20017 128.068 2.73584L136.403 6.49463C140.833 8.49243 145.638 9.52559 150.497 9.52559C165.355 9.52559 175.947 9.52559 191.179 9.52559C194.788 9.52559 198.36 8.78423 201.671 7.34749L212.648 2.5841C215.958 1.14736 219.529 0.406006 223.138 0.406006L297.578 0.406006C320.891 0.406006 339.79 19.3049 339.79 42.6178V73.9733C339.79 88.5269 327.992 100.325 313.438 100.325L26.7343 100.325C12.1807 100.325 0.382751 88.5269 0.382751 73.9733L0.382751 42.6177Z' fill='%231A1A1A'/%3E%3C/svg%3E");
+    background-size: cover;
+
+    ion-item {
+        --background: transparent;
+        display: flex;
+        align-items: center;
+        --inner-padding-start: 8px;
+        --inner-padding-end: 8px;
+        --padding-top: 8px;
+        --padding-end: 0px;
+        width: 100%;
+
+        ion-badge {
+            width: 34.89px;
+            height: 34.89px;
+            background: #FFEC89;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14.4382px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #000000;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 22px;
+        }
+
+        .title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17.4462px;
+            line-height: 23px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15.0671px;
+                line-height: 19px;
+                text-transform: capitalize;
+                color: rgba(255, 255, 255, 0.4);
+                display: block;
+            }
+        }
+        ul.avatars {
+            display: flex;
+            list-style-type: none;
+            margin: 5px 0 12px;
+            padding: 0;
+            float: right;
+            z-index: 1;
+          }
+          li.avatars__item {
+            height: 54.31px;
+            line-height: 54.31px;
+            margin: 0px 0px 0px -12px;
+            padding: 0px 0px 0px 0px;
+            position: relative;
+            // width: 42px;
+          }
+          .display,          
+          span.avatars__initials,
+          span.avatars__others {
+            background-color: #fff;
+            border: 1.81px solid #1A1A1A;
+            border-radius: 50%;
+            color: #1A1A1A;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            height: 54.31px;
+            line-height: 54.31px;
+            text-align: center;
+            width: 54.31px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            object-fit: cover;
+            object-position: center;            
+          }
+          
+          img.avatars__img
+          {
+            border-radius: 0;
+            padding: 12px;
+            height: 54.31px !important;
+            line-height: 54.31px;
+            width: 54.31px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            object-fit: contain;
+            object-position: center;
+          }
+                    
+          span.avatars__others {
+            background-color: #303030;
+            color: #ebebeb;
+          }
+          // li.avatars__item:nth-child( 1 ) { z-index: 9 ; }
+          // li.avatars__item:nth-child( 2 ) { z-index: 8 ; }
+          // li.avatars__item:nth-child( 3 ) { z-index: 7 ; }
+          // li.avatars__item:nth-child( 4 ) { z-index: 6 ; }
+          // li.avatars__item:nth-child( 5 ) { z-index: 5 ; }
+          // li.avatars__item:nth-child( 6 ) { z-index: 4 ; }
+          // li.avatars__item:nth-child( 7 ) { z-index: 3 ; }
+          // li.avatars__item:nth-child( 8 ) { z-index: 2 ; }
+          // li.avatars__item:nth-child( 9 ) { z-index: 1 ; }
+
+    }
+
+}

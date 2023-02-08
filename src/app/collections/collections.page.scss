@@ -1,0 +1,130 @@
+.collections {
+    padding: 0 8px !important;
+
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F3F3F3;
+        color: #000000;
+        width: 100%;
+        height: 38px;
+        border-radius: 22.48px;
+        padding-right: 3px;
+        margin-bottom: 15px;
+
+        ion-label {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16.1021px;
+            line-height: 17px;
+            text-transform: capitalize;
+            color: #000000;
+            margin-left: 14px;
+        }
+
+        .btn {
+            width: 43.13px;
+            height: 33.78px;
+            background: #FFFFFF;
+            border-radius: 22.4811px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .product {
+        margin: 0 0 12px;
+        display: grid;
+        justify-content: center;
+        border: 0 !important;
+        box-shadow: none !important;
+        height: 200px;
+        border-radius: 23.12px !important;
+        --border-radius: 23.12px !important;
+
+        ion-card-header {
+            ion-text {
+                width: 72.82px;
+                height: 40px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18.5733px;
+                line-height: 20px;
+                text-transform: capitalize;
+                color: #000000;
+                margin: 3px 0;
+            }
+
+            ion-chip {
+                margin: 0px 80px 0 0 !important;
+                padding: 0 10px !important;
+                height: 20px;
+            }
+        }
+
+        ion-card-content {
+            display: flex;
+            justify-content: center;
+
+            .p-img {
+                right: -50px;
+                top: 16px;
+                transform: rotate(27deg);
+                width: 132px;
+            }
+
+            .action {
+                height: 45px !important;
+                bottom: 8px;
+
+                .price {
+                    margin-left: 22px;
+                }
+
+                ion-button {
+                    /* Rectangle 39830 */
+                    width: 48.45px !important;
+                    height: 34.95px !important;
+                    --border-radius: 17.9468px !important;
+                }
+            }
+
+        }
+
+        &:hover figcaption {
+            transform: scale(1.01);
+            transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+            opacity: 1;
+
+
+        }
+
+        figcaption {
+            grid-row: 1;
+            grid-column: 1;
+            justify-self: center;
+            background: rgb(0 0 0 / 45%);
+            border-radius: 12px;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.6rem;
+            letter-spacing: 1.6px;
+            font-weight: 500;
+        }
+
+        // img {
+        //     grid-row: 1/-1;
+        //     grid-column: 1;
+        //     width: auto;
+        //     border-radius: 12px !important;
+        //     max-width: 100%;
+        //     display: block;
+        //     transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+        // }
+    }
+}

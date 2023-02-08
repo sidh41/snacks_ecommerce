@@ -1,0 +1,231 @@
+ion-toolbar.cart {
+    ion-label {
+        width: auto !important;
+        height: 34px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    ion-badge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 34.89px;
+        height: 34.89px;
+        background: #FFEC89;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.4382px;
+        line-height: 19px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}
+
+ion-content {
+    .cart {
+        .list {
+            width: 100%;
+            height: auto;
+            background-image: url("data:image/svg+xml,%3Csvg width='340' height='617' viewBox='0 0 340 617' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.38249 43.163C0.38249 19.8501 19.2813 0.951233 42.5943 0.951233L117.235 0.951233C120.97 0.951233 124.663 1.7454 128.068 3.28107L136.403 7.03985C140.833 9.03765 145.637 10.0708 150.496 10.0708L191.18 10.0708C194.789 10.0708 198.36 9.32946 201.671 7.89272L212.647 3.12933C215.958 1.69259 219.529 0.951233 223.138 0.951233L297.578 0.951233C320.891 0.951233 339.789 19.8501 339.789 43.163V589.973C339.789 604.527 327.991 616.325 313.438 616.325H26.7341C12.1805 616.325 0.38249 604.527 0.38249 589.973V43.163Z' fill='%231A1A1A'/%3E%3C/svg%3E");
+            background-size: cover;
+            padding: 32px 32px 16px;
+            border-bottom-left-radius: 32px;
+            border-bottom-right-radius: 32px;
+
+            ion-item {
+                --background: transparent;
+                --padding-start: 8px;
+                --padding-end: 8px;
+                --inner-padding-end: 0px;
+                --padding-bottom: 24px;
+
+                ion-avatar {
+                    width: 61.37px;
+                    height: 61.37px;
+                    background: #FFFFFF;
+                    border: 1.58601px solid #FFFFFF;
+                    border-radius: 87.3447px;
+                    margin-right: 18px;
+
+                    img {
+                        padding: 10px;
+                        border-radius: 0;
+                        object-fit: contain;
+                    }
+                }
+
+            }
+
+            .name {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: 28px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+
+                span {
+                    display: block;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    line-height: 17px;
+                    text-transform: capitalize;
+                    color: rgba(255, 255, 255, 0.4);
+                }
+            }
+
+            .price {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1.656px 5.49491px 1.656px 5.796px;
+                gap: 8.28px;
+                width: 68.99px;
+                height: 26.86px;
+                background: #FFFFFF;
+                border-radius: 21.528px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 11.592px;
+                line-height: 143.4%;
+                color: #000000;
+            }
+        }
+
+        .totalAmt {
+            background-image: url("data:image/svg+xml,%3Csvg width='283' height='150' viewBox='0 0 283 150' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35.4543 0.704834C16.0632 0.704834 0.343579 16.426 0.343579 35.819V114.676C0.343579 134.069 16.0632 149.79 35.4543 149.79H97.5385C100.646 149.79 103.717 149.129 106.549 147.852L113.482 144.725C117.167 143.063 121.163 142.204 125.205 142.204H159.045C162.047 142.204 165.016 142.821 167.77 144.016L176.9 147.978C179.654 149.173 182.624 149.79 185.626 149.79L247.543 149.79C266.934 149.79 282.654 134.069 282.654 114.676V35.819C282.654 16.426 266.934 0.704834 247.543 0.704834L185.626 0.704834C182.624 0.704834 179.654 1.32154 176.9 2.5167L167.77 6.47917C165.016 7.67433 162.047 8.29103 159.045 8.29103L125.205 8.29103C121.163 8.29103 117.167 7.43159 113.482 5.76971L106.549 2.64292C103.717 1.36547 100.646 0.704834 97.5385 0.704834L35.4543 0.704834Z' fill='%23FFEC89'/%3E%3C/svg%3E");
+            height: 160px;
+            width: 282.31px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin: 0 auto 22px;
+
+            ion-item {
+                &.Delivery {
+                    --padding-top: 16px;
+                    --padding-start: 32px;
+                    --padding-end: 32px;
+                    --padding-bottom: 0;
+                    --border-color: rgba(0, 0, 0, 0.3);
+                    width: 100%;
+
+                    .D-title {
+                        height: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 11.1021px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #000000;
+                        display: flex;
+                        justify-content: space-between;
+
+                        span {
+                            height: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14.2741px;
+                            line-height: 18px;
+                            text-align: center;
+                            text-transform: capitalize;
+                            color: #000000;
+                        }
+                    }
+                }
+
+                &.T-Amt {
+                    --padding-start: 32px;
+                    --padding-end: 0px;
+                    --padding-bottom: 0px;
+                    --inner-padding-bottom: 0;
+                    --inner-padding-end: 0;
+
+
+
+
+                    .T-title {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15.8601px;
+                        line-height: 21px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #000000;
+
+                        .amt {
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 26.9622px;
+                            line-height: 35px;
+                            text-align: center;
+                            text-transform: capitalize;
+                            color: #000000;
+                            display: block !important;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        .makepayment {
+            ion-col {
+                display: flex;
+                justify-content: center;
+                padding: 16px 0 0px;
+            }
+
+            .btn {
+                width: 282.31px;
+                box-sizing: border-box;
+                height: 73px;
+                bottom: 14px;
+                background-color: #fff;
+                border-radius: 35.1566px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 0.1px solid rgba(255, 255, 255, 0.4);
+
+                .title {
+                    height: 21px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15.8601px;
+                    line-height: 21px;
+                    text-transform: capitalize;
+                    color: #000000;
+                    margin-left: 25px;
+                }
+
+                ion-button {
+                    --background: #FFEC89;
+                    --background-focused: #FFEC89;
+                    --background-activated: #ffe45a;
+                    --border-radius: 42.57px;
+                    width: 82.9px;
+                    height: 62.74px;
+                    margin-right: 6px;
+                }
+            }
+        }
+
+        .cshopping {
+            display: flex;
+            text-transform: capitalize;
+            margin: 16px 0 0;
+            color: #fff;
+        }
+
+    }
+}

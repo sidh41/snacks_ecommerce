@@ -1,0 +1,186 @@
+.product-page {
+    .name {
+      height: 21px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15.8601px;
+      line-height: 21px;
+      text-transform: capitalize;
+      color: rgba(0, 0, 0, 0.4);
+      margin-bottom: 18px;
+      text-align: left;
+      padding: 0 16px;
+    }
+  
+    .product-img {
+      height: 297.38px;
+      width: 199.04px;
+      margin: 18.65px auto;
+      display: flex;
+      justify-content: center;
+  
+      .details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        position: absolute;
+        width: 38%;
+        height: 73.75px;
+        bottom: -12px;
+        -webkit-backdrop-filter: blur(9.51608px);
+        backdrop-filter: blur(9.51608px);
+        // clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 25% 100%);
+        background: linear-gradient(346.83deg, rgba(255, 255, 255, 0.6) 9.44%, rgba(255, 255, 255, 0.318) 221.17%);
+        border-radius: 17.0184px;
+        box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 6%) 0px 150px 100px 204px;
+  
+        ion-label {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 45px;
+          height: 23px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11.1021px;
+          line-height: 11px;
+          text-transform: capitalize;
+          color: rgba(0, 0, 0, 0.4);
+  
+          b {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 59px;
+            height: 27px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20.6182px;
+            line-height: 27px;
+            text-transform: capitalize;
+            color: #000000;
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+  
+    // Qty Section
+    .qty-section {
+      // padding-top: 32px;
+      display: flex;
+      align-items: center;
+  
+      .qty-btn {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+  
+        &.plus {
+          width: 69.95px;
+          height: 166.93px;
+          background-image: url("data:image/svg+xml,%3Csvg width='71' height='168' viewBox='0 0 71 168' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.381561 167.079V0.151245L22.8157 29.4686C31.0527 40.2328 41.1755 49.4122 52.6917 56.5602C76.3298 71.2322 76.1862 105.677 52.4266 120.152L48.6995 122.422C39.7871 127.851 31.6209 134.42 24.4073 141.961L0.381561 167.079Z' fill='url(%23paint0_linear_104_313)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_104_313' x1='65.9723' y1='93.7261' x2='0.549226' y2='93.7261' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='white'/%3E%3Cstop offset='1' stop-color='white' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+  
+        &.minus {
+          float: right;
+          width: 69.95px;
+          height: 166.93px;
+          background-image: url("data:image/svg+xml,%3Csvg width='71' height='168' viewBox='0 0 71 168' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M70.5739 167.286V0.358032L48.1397 29.6754C39.9027 40.4396 29.7799 49.619 18.2637 56.767C-5.37444 71.439 -5.23083 105.884 18.5288 120.358L22.2559 122.629C31.1683 128.058 39.3345 134.627 46.5481 142.168L70.5739 167.286Z' fill='url(%23paint0_linear_104_312)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_104_312' x1='4.98312' y1='93.9328' x2='70.4062' y2='93.9328' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='white'/%3E%3Cstop offset='1' stop-color='white' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+  
+        ion-button {
+          --background: transparent;
+          --border-radius: 50px;
+          --background-activated: transparent;
+          --padding-start: 16px;
+          --padding-top: 10px;
+  
+          ion-icon {
+            font-size: 30px;
+            color: #000;
+          }
+        }
+      }
+  
+      .qty {
+        text-align: center;
+  
+        .number {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36.4783px;
+          line-height: 47px;
+          text-transform: capitalize;
+          color: #000000;
+          margin-bottom: 16px;
+        }
+  
+        .price {
+          background: #FFEC89;
+          border-radius: 35.1566px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19.0322px;
+          line-height: 25px;
+          text-transform: capitalize;
+          color: #000000;
+          margin: 28px auto;
+          padding: 16px 25px
+        }
+      }
+  
+  
+  
+    }
+  
+    .addToCart {
+      ion-col {
+        display: flex;
+        justify-content: center;
+        padding: 16px 0 18px;
+      }
+  
+      .btn {
+        width: 80%;
+        box-sizing: border-box;
+        height: 73px;
+        bottom: 14px;
+        background-color: #fff;
+        border-radius: 35.1566px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 0.1px solid rgba(255, 255, 255, 0.4);
+  
+        .title {
+          height: 21px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15.8601px;
+          line-height: 21px;
+          text-transform: capitalize;
+          color: #000000;
+          margin-left: 25px;
+        }
+  
+        ion-button {
+          --background: #FFEC89;
+          --background-focused: #FFEC89;
+          --background-activated: #ffe45a;
+          --border-radius: 42.57px;
+          width: 82.9px;
+          height: 62.74px;
+          margin-right: 6px;
+        }
+      }
+    }
+  
+  }

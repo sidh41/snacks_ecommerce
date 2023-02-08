@@ -1,0 +1,125 @@
+<ion-header mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-label class="title">
+        <b>Chips</b> Collections
+      </ion-label>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-buttons slot="end">
+        <ion-back-button class="menu-btn" defaultHref="home" text="" icon="chevron-back-outline">
+        </ion-back-button>
+      </ion-buttons>      
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="collections">
+      <ion-col size="6">
+        <ion-card class="product orange">
+          <ion-card-header>
+            <ion-text>Smiths Chips</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p4.png" />
+            <div class="action">
+              <ion-text class="price">$ 07.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product grey">
+          <ion-card-header>
+            <ion-text>Dark Russet</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p5.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product red">
+          <ion-card-header>
+            <ion-text>Twister Chips</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p6.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-chip class="filter">          
+          <ion-label><b>6</b> Items</ion-label>
+          <div class="btn">
+            <ion-img src="../../assets/icon/setting.svg"></ion-img>
+          </div>
+        </ion-chip>
+        <ion-card class="product green">
+          <ion-card-header>
+            <ion-text>Coconut Chips</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p3.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product blue">
+          <ion-card-header>
+            <ion-text>Regular Nature</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p7.png" />
+            <div class="action">
+              <ion-text class="price">$ 07.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product purple">
+          <ion-card-header>
+            <ion-text>Deep  River</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="../../assets/images/p8.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+</ion-content>
+<ion-footer mode="ios">
+  <app-cart-footer></app-cart-footer>
+</ion-footer>
