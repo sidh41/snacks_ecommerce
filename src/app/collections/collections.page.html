@@ -14,7 +14,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
   <ion-grid>
     <ion-row class="collections">
       <ion-col size="6">
@@ -120,6 +120,6 @@
     </ion-row>
   </ion-grid>  
 </ion-content>
-<ion-footer mode="ios">
+<ion-footer mode="ios" [translucent]="true">
   <app-cart-footer></app-cart-footer>
 </ion-footer>

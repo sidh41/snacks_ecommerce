@@ -13,54 +13,57 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" scroll-y="false">
   <ion-grid class="cart ion-no-padding">
     <ion-row>
       <ion-col size="12">
         <div class="list">
-          <ion-item lines="none">
-            <ion-avatar>
-              <img src="../../assets/images/p2.png" />
-            </ion-avatar>
-            <ion-label class="name">Unreal Muffins<span>Chocolates</span></ion-label>
-            <ion-badge mode="ios" class="price">$08.00</ion-badge>
-          </ion-item>
-          <ion-item lines="none">
-            <ion-avatar>
-              <img src="../../assets/images/p3.png" />
-            </ion-avatar>
-            <ion-label class="name">Coconut Chips<span>Dang</span></ion-label>
-            <ion-badge mode="ios" class="price">$08.00</ion-badge>
-          </ion-item>
-          <ion-item lines="none">
-            <ion-avatar>
-              <img src="../../assets/images/p1.png" />
-            </ion-avatar>
-            <ion-label class="name">Good Source<span>Snacks</span></ion-label>
-            <ion-badge mode="ios" class="price">$08.00</ion-badge>
-          </ion-item>
-          <div class="totalAmt">
-            <ion-item class="Delivery">
-              <ion-label class="D-title">Delivery Amount<span class="amt">$04.00</span></ion-label>
+          <div class="content">
+            <ion-item lines="none">
+              <ion-avatar>
+                <img src="../../assets/images/p2.png" />
+              </ion-avatar>
+              <ion-label class="name">Unreal Muffins<span>Chocolates</span></ion-label>
+              <ion-badge mode="ios" class="price">$08.00</ion-badge>
             </ion-item>
-            <ion-item lines="none" class="T-Amt">
-              <ion-label class="T-title">Total Amount<span class="amt">USD 38.00</span></ion-label>
-            </ion-item>            
+            <ion-item lines="none">
+              <ion-avatar>
+                <img src="../../assets/images/p3.png" />
+              </ion-avatar>
+              <ion-label class="name">Coconut Chips<span>Dang</span></ion-label>
+              <ion-badge mode="ios" class="price">$08.00</ion-badge>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-avatar>
+                <img src="../../assets/images/p1.png" />
+              </ion-avatar>
+              <ion-label class="name">Good Source<span>Snacks</span></ion-label>
+              <ion-badge mode="ios" class="price">$08.00</ion-badge>
+            </ion-item>
+            <div class="totalAmt">
+              <ion-item class="Delivery">
+                <ion-label class="D-title">Delivery Amount<span class="amt">$04.00</span></ion-label>
+              </ion-item>
+              <ion-item lines="none" class="T-Amt">
+                <ion-label class="T-title">Total Amount<span class="amt">USD 38.00</span></ion-label>
+              </ion-item>            
+            </div>
+  
+            <ion-row class="makepayment">
+              <ion-col size="12">
+                <div class="btn">
+                  <ion-text class="title">Make Payment</ion-text>
+                  <ion-button mode="ios" >
+                    <ion-img src="../../assets/icon/arrows-right.svg"></ion-img>
+                  </ion-button>                
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-button fill="clear" shape="round" size="small" class="cshopping" [routerLink]="['/home']" mode="ios">
+              Continue Shopping
+            </ion-button>
           </div>
-
-          <ion-row class="makepayment">
-            <ion-col size="12">
-              <div class="btn">
-                <ion-text class="title">Make Payment</ion-text>
-                <ion-button mode="ios" >
-                  <ion-img src="../../assets/icon/arrows-right.svg"></ion-img>
-                </ion-button>                
-              </div>
-            </ion-col>
-          </ion-row>
-          <ion-button fill="clear" shape="round" size="small" class="cshopping" [routerLink]="['/home']" mode="ios">
-            Continue Shopping
-          </ion-button>
+          
 
         </div>
       </ion-col>
