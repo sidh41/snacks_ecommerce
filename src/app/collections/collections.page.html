@@ -18,15 +18,45 @@
   <ion-grid>
     <ion-row class="collections">
       <ion-col size="6">
-        <ion-card class="product orange">
+        <ion-card class="product brown">
           <ion-card-header>
-            <ion-text>Smiths Chips</ion-text>
+            <ion-text>Chocolate Sea Salt</ion-text>
             <ion-chip>Chips</ion-chip>
           </ion-card-header>
           <ion-card-content>
-            <img class="p-img" src="../../assets/images/p4.png" />
+            <img class="p-img" src="assets/images/products/d-1.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product pista">
+          <ion-card-header>
+            <ion-text>Savory Seaweed</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="assets/images/products/d-5.png" />
             <div class="action">
               <ion-text class="price">$ 07.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product green">
+          <ion-card-header>
+            <ion-text>Coconut Crunch</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="assets/images/products/d-3.png" />
+            <div class="action">
+              <ion-text class="price">$ 09.00</ion-text>
                 <ion-button>
                   <ion-img src="../../assets/icon/bag.svg"></ion-img>
                 </ion-button> 
@@ -71,13 +101,28 @@
             <ion-img src="../../assets/icon/setting.svg"></ion-img>
           </div>
         </ion-chip>
-        <ion-card class="product green" [routerLink]="['/product']">
-          <ion-card-header>
+        <ion-card class="product green">
+          <ion-card-header [routerLink]="['/product']">
             <ion-text>Coconut Chips</ion-text>
             <ion-chip>Chips</ion-chip>
           </ion-card-header>
           <ion-card-content>
             <img class="p-img" src="../../assets/images/p3.png" />
+            <div class="action">
+              <ion-text class="price">$ 08.00</ion-text>
+                <ion-button>
+                  <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                </ion-button> 
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="product red">
+          <ion-card-header>
+            <ion-text>Sriracha Spice</ion-text>
+            <ion-chip>Chips</ion-chip>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="p-img" src="assets/images/products/d-7.png" />
             <div class="action">
               <ion-text class="price">$ 08.00</ion-text>
                 <ion-button>

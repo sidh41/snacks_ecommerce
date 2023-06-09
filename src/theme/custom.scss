@@ -199,9 +199,11 @@ ion-header {
 
     ion-card-content {
         position: absolute;
-        width: 100%;
+        width: -webkit-fill-available;
+        max-width: -webkit-fill-available;
         bottom: 0;
         padding: 0;
+        margin: 0 auto;
 
         .p-img {
             position: relative;
@@ -214,6 +216,7 @@ ion-header {
         .action {
             position: absolute;
             width: 90%;
+            max-width: 90%;
             box-sizing: border-box;
             height: 61px;
             bottom: 14px;
@@ -281,7 +284,7 @@ ion-header {
     }
 
     &.blue {
-        background-color: #E8E9FF;
+        background-color: #a1dbff;
     }
 
     &.purple {
@@ -298,8 +301,8 @@ ion-header {
 
 swiper .product ion-card-content .p-img {
     position: relative;
-    width: 60vw;
-    height: 40vh;
+    width: 58vw;
+    height: 46vh;
     object-fit: contain;
     right: -135px;
     bottom: 0;

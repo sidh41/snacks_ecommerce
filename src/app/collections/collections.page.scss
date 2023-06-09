@@ -53,7 +53,7 @@
                 line-height: 20px;
                 text-transform: capitalize;
                 color: #000000;
-                margin: 3px 0;
+                margin: 3px 0 8px;
             }
 
             ion-chip {
@@ -71,7 +71,9 @@
                 right: -50px;
                 top: 16px;
                 transform: rotate(27deg);
-                width: 132px;
+                width: 120px;
+                height: 200px;
+                object-fit: contain;
             }
 
             .action {
