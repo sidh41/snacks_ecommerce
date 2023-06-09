@@ -20,7 +20,7 @@ ion-header {
         padding: 0px 16px 0 !important;
         box-shadow: none !important;
         --border-width: 0px;
-        --padding-start: 0px;        
+        --padding-start: 0px;
 
         .title {
             text-transform: capitalize;
@@ -162,6 +162,7 @@ ion-header {
 
     ion-card-header {
         padding: 0;
+        z-index: 999;
 
         ion-text {
             font-size: 1.7rem;
@@ -174,7 +175,7 @@ ion-header {
             color: #000;
             height: 59px;
             width: 50%;
-            word-break: break-word;
+            // word-break: break-word;
             font-style: normal;
             font-weight: 700;
             font-size: 28.5483px;
@@ -286,4 +287,22 @@ ion-header {
     &.purple {
         background-color: #DDCDFE;
     }
+
+    &.brown {
+        background-color: #ffe8df;
+    }
+    &.pista {
+        background-color: #c1fffe;
+    }
+}
+
+swiper .product ion-card-content .p-img {
+    position: relative;
+    width: 60vw;
+    height: 40vh;
+    object-fit: contain;
+    right: -135px;
+    bottom: 0;
+    top: 0;
+    transform: rotate(25deg);
 }

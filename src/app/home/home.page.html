@@ -7,7 +7,7 @@
     </ion-buttons>
     <ion-buttons slot="end">
       <ion-button class="menu-btn">
-        <ion-img src="../../assets/icon/menu.svg"></ion-img>
+        <ion-img src="assets/icon/menu.svg"></ion-img>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -90,22 +90,22 @@
             <ion-card *ngSwitchCase="'1'" class="ion-no-margin ion-padding-bottom card-bg">
               <ion-card-header>
                 <a class="title" [routerLink]="['/collections']">All <b>Collections</b> <ion-img
-                    src="../../assets/icon/arrow-right.svg"></ion-img></a>
+                    src="assets/icon/arrow-right.svg"></ion-img></a>
               </ion-card-header>
               <ion-card-content>
                 <swiper [effect]="'cards'" [grabCursor]="true" class="mySwiper">
                   <ng-template swiperSlide>
-                    <ion-card class="product pink">
+                    <ion-card class="product pista">
                       <ion-card-header>
-                        <ion-text>Good Source</ion-text>
-                        <ion-chip>Chocolates</ion-chip>
+                        <ion-text>Savory Seaweed</ion-text>
+                        <ion-chip>Chips</ion-chip>
                       </ion-card-header>
                       <ion-card-content>
-                        <img class="p-img" src="../../assets/images/p1.png" />
+                        <img class="p-img" src="assets/images/products/d-5.png" />
                         <div class="action">
                           <ion-text class="price">$ 08.00</ion-text>
                             <ion-button>
-                              <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
                             </ion-button> 
                         </div>
                       </ion-card-content>
@@ -118,11 +118,11 @@
                         <ion-chip>Chocolates</ion-chip>
                       </ion-card-header>
                       <ion-card-content>
-                        <img class="p-img" src="../../assets/images/p2.png" />
+                        <img class="p-img" src="assets/images/p2.png" />
                         <div class="action">
                           <ion-text class="price">$ 06.00</ion-text>
                             <ion-button>
-                              <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
                             </ion-button> 
                         </div>
                       </ion-card-content>
@@ -135,11 +135,11 @@
                       <ion-chip>Chips</ion-chip>
                       </ion-card-header>
                       <ion-card-content>
-                        <img class="p-img" [routerLink]="['/product']" src="../../assets/images/p3.png" />
+                        <img class="p-img" [routerLink]="['/product']" src="assets/images/p3.png" />
                         <div class="action">
                           <ion-text class="price">$ 06.00</ion-text>
                             <ion-button>
-                              <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
                             </ion-button> 
                         </div>
                       </ion-card-content>
@@ -151,28 +151,62 @@
             <ion-card *ngSwitchCase="'2'" class="ion-no-margin ion-padding-bottom card-bg">
               <ion-card-header>
                 <a class="title" [routerLink]="['/collections']">Choco <b>Collections</b> <ion-img
-                    src="../../assets/icon/arrow-right.svg"></ion-img></a>
+                    src="assets/icon/arrow-right.svg"></ion-img></a>
               </ion-card-header>
             </ion-card>
             <ion-card *ngSwitchCase="'3'" class="ion-no-margin ion-padding-bottom card-bg">
               <ion-card-header>
                 <a class="title" [routerLink]="['/collections']">Chips <b>Collections</b> <ion-img
-                    src="../../assets/icon/arrow-right.svg"></ion-img></a>
+                    src="assets/icon/arrow-right.svg"></ion-img></a>
               </ion-card-header>
               <ion-card-content>
                 <swiper [effect]="'cards'" [grabCursor]="true" class="mySwiper">
                   <ng-template swiperSlide>
-                    <ion-card class="product orange">
+                    <ion-card class="product brown">
                       <ion-card-header>
-                        <ion-text [routerLink]="['/collections']">Dark Russet</ion-text>
+                        <ion-text>Chocolate Sea Salt</ion-text>
                       <ion-chip>Chips</ion-chip>
                       </ion-card-header>
                       <ion-card-content>
-                        <img class="p-img" [routerLink]="['/product']" src="../../assets/images/p5.png" />
+                        <img class="p-img" src="assets/images/products/d-1.png" />
                         <div class="action">
                           <ion-text class="price">$ 08.00</ion-text>
                             <ion-button>
-                              <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
+                            </ion-button> 
+                        </div>
+                      </ion-card-content>
+                    </ion-card>
+                  </ng-template>
+                  <ng-template swiperSlide>
+                    <ion-card class="product blue">
+                      <ion-card-header>
+                        <ion-text>Aged Cheddar</ion-text>
+                      <ion-chip>Chips</ion-chip>
+                      </ion-card-header>
+                      <ion-card-content>
+                        <img class="p-img" src="assets/images/products/d-2.png" />
+                        <div class="action">
+                          <ion-text class="price">$ 08.00</ion-text>
+                            <ion-button>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
+                            </ion-button> 
+                        </div>
+                      </ion-card-content>
+                    </ion-card>
+                  </ng-template>
+                  <ng-template swiperSlide>
+                    <ion-card class="product red">
+                      <ion-card-header>
+                        <ion-text>Sriracha Spice</ion-text>
+                      <ion-chip>Chips</ion-chip>
+                      </ion-card-header>
+                      <ion-card-content>
+                        <img class="p-img" src="assets/images/products/d-7.png" />
+                        <div class="action">
+                          <ion-text class="price">$ 08.00</ion-text>
+                            <ion-button>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
                             </ion-button> 
                         </div>
                       </ion-card-content>
@@ -185,11 +219,11 @@
                       <ion-chip>Chips</ion-chip>
                       </ion-card-header>
                       <ion-card-content>
-                        <img class="p-img" [routerLink]="['/product']" src="../../assets/images/p3.png" />
+                        <img class="p-img" [routerLink]="['/product']" src="assets/images/p3.png" />
                         <div class="action">
                           <ion-text class="price">$ 06.00</ion-text>
                             <ion-button>
-                              <ion-img src="../../assets/icon/bag.svg"></ion-img>
+                              <ion-img src="assets/icon/bag.svg"></ion-img>
                             </ion-button> 
                         </div>
                       </ion-card-content>
@@ -201,7 +235,7 @@
             <ion-card *ngSwitchCase="'4'" class="ion-no-margin ion-padding-bottom card-bg">
               <ion-card-header>
                 <a class="title" [routerLink]="['/collections']">Candy <b>Collections</b> <ion-img
-                    src="../../assets/icon/arrow-right.svg"></ion-img></a>
+                    src="assets/icon/arrow-right.svg"></ion-img></a>
               </ion-card-header>
             </ion-card>
           </div>
