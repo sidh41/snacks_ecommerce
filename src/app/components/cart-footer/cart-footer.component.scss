@@ -1,12 +1,12 @@
 .cart {
   width: 100%;
-  height: 114px; // 110.92px
+  height: 60px; // 110.92px
   display: flex;
   align-items: center;
   background-image: url("data:image/svg+xml,%3Csvg width='340' height='101' viewBox='0 0 340 101' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.382751 42.6177C0.382751 19.3048 19.2816 0.406006 42.5945 0.406006L117.235 0.406006C120.971 0.406006 124.663 1.20017 128.068 2.73584L136.403 6.49463C140.833 8.49243 145.638 9.52559 150.497 9.52559C165.355 9.52559 175.947 9.52559 191.179 9.52559C194.788 9.52559 198.36 8.78423 201.671 7.34749L212.648 2.5841C215.958 1.14736 219.529 0.406006 223.138 0.406006L297.578 0.406006C320.891 0.406006 339.79 19.3049 339.79 42.6178V73.9733C339.79 88.5269 327.992 100.325 313.438 100.325L26.7343 100.325C12.1807 100.325 0.382751 88.5269 0.382751 73.9733L0.382751 42.6177Z' fill='%231A1A1A'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: bottom;
+  background-position: top;
   // position: absolute;
   // bottom: 0;
   z-index: 999;
@@ -15,11 +15,11 @@
     display: contents;
     --background: transparent;
     --inner-padding-start: 8px;
-    --inner-padding-end: 0px;
-    --padding-top: 16px;
+    --inner-padding-end: 4px;
+    --padding-top: 0px;
     --padding-end: 0px;
     width: 100%;
-    height: 114px;
+    height: 60px;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -64,15 +64,15 @@
     ul.avatars {
       display: flex;
       list-style-type: none;
-      margin: 5px 0 12px;
+      margin: 2px 0;
       padding: 0;
       float: right;
       z-index: 1;
     }
 
     li.avatars__item {
-      height: 54.31px;
-      line-height: 54.31px;
+      height: 44px;
+      line-height: 44px;
       margin: 0px 0px 0px -12px;
       padding: 0px 0px 0px 0px;
       position: relative;
@@ -88,10 +88,10 @@
       color: #1A1A1A;
       font-size: 12px;
       letter-spacing: 1.2px;
-      height: 54.31px;
-      line-height: 54.31px;
+      height: 44px;
+      line-height: 44px;
       text-align: center;
-      width: 54.31px;
+      width: 44px;
       font-weight: 500;
       display: flex;
       align-items: center;
@@ -102,10 +102,10 @@
 
     img.avatars__img {
       border-radius: 0;
-      padding: 12px;
-      height: 54.31px !important;
-      line-height: 54.31px;
-      width: 54.31px !important;
+      padding: 10px;
+      height: 44px !important;
+      line-height: 44px;
+      width: 44px !important;
       display: flex;
       align-items: center;
       justify-content: center;
